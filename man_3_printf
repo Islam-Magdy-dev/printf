@@ -59,12 +59,3 @@ print_pointer.c
 .TP
 print_unsigned.c
 .SH Getting help
-If you need any help you can find our contact info on github :
-.TP
-username : Scotty-Scott-1
-.TP
-username : ErwanR-Holberton
-.SH History
-24th July to 28th July - Originaly written by Solomon and Erwan
-.TP
-Present day - Currently maintained by Solomon and Erwan
