@@ -1,7 +1,8 @@
 #include "main.h"
 #include <stdarg.h>
 #include <unistd.h>
-/**
+
+/*
 * print_string - writes the value of c and returns count
 * @args: macro of args
 * Return: Number of characters printed

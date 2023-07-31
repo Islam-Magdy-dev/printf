@@ -1,10 +1,10 @@
 #include "main.h"
 
-/**
- * _printf - write a string with multiple variables
- * @format: the list of chars & variables to print
- * Return: the number of characters printed or failure code
- */
+/*
+* _printf - write a string with multiple variables
+* @format: the list of chars & variables to print
+* Return: the number of characters printed or failure code
+*/
 
 int _printf(const char *format, ...)
 {

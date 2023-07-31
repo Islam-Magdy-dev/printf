@@ -1,10 +1,11 @@
 #include "main.h"
 #include <stdio.h>
-/**
- * print_pointer - write an number in pointerdecimal
- * @args: macro for the variadic function
- * Return: the number of characters printed or failure code
- */
+
+/*
+* print_pointer - write an number in pointerdecimal
+* @args: macro for the variadic function
+* Return: the number of characters printed or failure code
+*/
 int print_pointer(va_list args)
 {
 	unsigned long p = va_arg(args, unsigned long);

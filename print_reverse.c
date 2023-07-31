@@ -1,7 +1,8 @@
 #include "main.h"
 #include <stdarg.h>
 #include <unistd.h>
-/**
+
+/*
 * print_reverse - writes the string in reverse
 * @args: macro of args
 * Return: Number of characters printed

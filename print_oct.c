@@ -1,7 +1,7 @@
 #include "main.h"
-/**
+
+/*
 * print_oct - writes the value of c and returns count
-*
 * @args: macro of args
 * Return: number of bytes printed or -1
 */

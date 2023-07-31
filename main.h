@@ -1,16 +1,17 @@
 #ifndef MAIN_H
 #define MAIN_H
+
 #include <stddef.h>
 #include <stdarg.h>
 #include <unistd.h>
 int _printf(const char *format, ...);
 
-/**
- * struct funct_structure - store a char and the function that
- * we need to call when we match with the caracter
- * @func_char: the char we search
- * @func_to_call: the function to call when the chars matches
- */
+/*
+* struct funct_structure - store a char and the function that
+* we need to call when we match with the caracter
+* @func_char: the char we search
+* @func_to_call: the function to call when the chars matches
+*/
 typedef struct funct_structure
 {
 	char func_char;

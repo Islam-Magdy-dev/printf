@@ -1,9 +1,9 @@
 #include "main.h"
 #include <stdarg.h>
 #include <unistd.h>
-/**
+
+/*
 * print_heXa - writes the value of c and returns count
-*
 * @args: macro of args
 * Return: number of bytes printed or -1
 */

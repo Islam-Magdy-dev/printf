@@ -2,9 +2,9 @@
 #include <limits.h>
 #include <stdarg.h>
 #include <unistd.h>
-/**
+
+/*
 * print_decimal - writes the value of c and returns count
-*
 * @args: macro of args
 * Return: int
 */
@@ -32,5 +32,4 @@ int print_decimal(va_list args)
 	write_v += write(1, (temp + 9 - i + 1), i);
 
 return (write_v);
-
 }
