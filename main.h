@@ -1,12 +1,11 @@
 #ifndef MAIN_H
 #define MAIN_H
-
 #include <stddef.h>
 #include <stdarg.h>
 #include <unistd.h>
 int _printf(const char *format, ...);
 
-/*
+/**
 * struct funct_structure - store a char and the function that
 * we need to call when we match with the caracter
 * @func_char: the char we search

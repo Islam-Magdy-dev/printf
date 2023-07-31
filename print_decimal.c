@@ -3,7 +3,7 @@
 #include <stdarg.h>
 #include <unistd.h>
 
-/*
+/**
 * print_decimal - writes the value of c and returns count
 * @args: macro of args
 * Return: int

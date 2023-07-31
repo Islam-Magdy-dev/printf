@@ -1,6 +1,6 @@
 #include "main.h"
 
-/*
+/**
 * print_char - write a char
 * @args: macro for the variadic function
 * Return: the number of characters printed or failure code

@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 
-/*
+/**
 * print_pointer - write an number in pointerdecimal
 * @args: macro for the variadic function
 * Return: the number of characters printed or failure code

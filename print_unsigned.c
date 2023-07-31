@@ -2,7 +2,7 @@
 #include <stdarg.h>
 #include <unistd.h>
 
-/*
+/**
 * print_unsigned - writes the value of c and returns count
 * @args: macro of args
 * Return: number of bytes printed or -1
@@ -28,5 +28,3 @@ int print_unsigned(va_list args)
 
 return (write_v);
 }
-
-
