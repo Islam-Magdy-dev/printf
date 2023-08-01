@@ -98,5 +98,3 @@ Non printable characters (0 < ASCII value < 32 or >= 127) are printed this way: 
 	R: prints the rot13'ed string
 	15. *
 #advanced
-	All the above options work well together.
-
